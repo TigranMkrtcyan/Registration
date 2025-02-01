@@ -1,0 +1,83 @@
+body {
+    background-color: #2d2b2b;
+}
+
+.inputs{
+    margin: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap:16px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+h1{
+    color: rgb(195,195,195);
+}
+
+.inp{
+    width: 120px;
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 8px;
+    border: 1px solid white;
+    outline: none;
+    color: rgb(195,195,195);
+    background-color: #424040 ;
+}
+
+.input{
+    width: 250px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    outline: none;
+    color: rgb(195,195,195);
+    background-color: #424040 ;
+}
+
+.err {
+    width: 250px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    outline: none;
+    color: rgb(195,195,195);
+    background-color: #424040 ;
+    border: 1px solid red;
+    outline-color: red;
+}
+
+.error{
+    width: 120px;
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 8px;
+    border: 1px solid white;
+    outline: none;
+    color: rgb(195,195,195);
+    background-color: #424040 ;
+    border: 1px solid red;
+    outline-color: red;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: #424040 ;
+    border-radius: 20px;
+    border: 1px solid white;
+    outline: none;
+    color: rgb(195,195,195);
+
+}
