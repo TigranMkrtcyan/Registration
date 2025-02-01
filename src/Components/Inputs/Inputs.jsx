@@ -40,7 +40,7 @@ function Inputs(props) {
             <button className={props.data() ? 'valid' : 'invalid'} onClick={Click} >Login</button>
         </div>
         </>
-    )
+ )
 }
 
 export default Inputs 
